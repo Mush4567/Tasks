@@ -1,7 +1,7 @@
 #include <stdio.h>
-int sum(int a){
-	a = 10;
-	int i = 0;
-	int j = 0;
-	return i*j;
+void sum(int a){
+	for(int i = 1;i<=10;++i){
+		printf("%d * %d = %d\n",i,a,i*a);
+	}
+
 }

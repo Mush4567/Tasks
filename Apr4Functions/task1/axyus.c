@@ -1,7 +1,6 @@
 #include <stdio.h>
-int sum(int a){
-	for(int i = 1;i<11;++i){
-		return a*i;
+void sum(int a){
+	for(int i = 1; i <= 10; ++i){
+		printf("%d * %d = %d\n", a, i, a*i );
 	}
-
 }
